@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <style>
+      .menu1{
+        display: inline-block;
+      }
+      .menu1pic{
+        display: inline-block;
+      }
+      .menu1 li{
+        padding: 30px;
+      }
+      .menu1pic li{
+        padding-bottom: 25px;
+      }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#coro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#veg">Veg Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#non-veg">Non-Veg Menu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" id="coro">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXj1FW0BRwY5dn0hReAjZK3v6nFbrWUJO6Wg&s" class="d-block w-100" height="250px" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/07/barbeque-nation-1594710068.jpg" class="d-block w-100" height="250px" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://etimg.etb2bimg.com/photo/95768684.cms" class="d-block w-100" height="250px" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+
+      <article>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id="veg">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapse" id="veg">
+                  VEG MENU
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ol class="menu1" style="list-style-type: none;">
+                    <li>Paneer Reshmi Veg</li>
+                    <li>Peri Peri Paneer Tikka</li>
+                    <li>Cheese Mushroom</li>
+                    <li>Cajun Potato</li>
+                </ol>
+                <ol class="menu1pic" style="list-style-type: none;">
+                    <li><img src="https://www.licious.in/blog/wp-content/uploads/2020/12/shutterstock_1801066921.jpg" width="80"></li>
+                    <li><img src="https://www.chefkunalkapur.com/wp-content/uploads/2022/02/Peri-Peri-Paneer-Sashlik-1300x867.jpg?v=1645845815" width="80"></li>
+                    <li><img src="https://www.sargento.com/assets/Uploads/Recipe/Image/stuffed-mushroom__FillWzExNzAsNTgzXQ.jpg" width="80" height="60"></li>
+                    <li><img src="https://vegecravings.com/wp-content/uploads/2023/08/Cajun-Potatoes-Recipe-Step-By-Step-Instructions.jpg" width="80"></li>
+                </ol>
+                <ol class="menu1" style="list-style-type: none;">
+                    <li>299</li>
+                    <li>299</li>
+                    <li>299</li>
+                    <li>299</li>
+                </ol>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" id="non-veg">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="non-veg">
+                  NON-VEG MENU
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ol class="menu1" style="list-style-type: none;">
+                    <li>tandoori chicken tikka</li>
+                    <li>Coastal Fish Tikka</li>
+                    <li>Chilli Garlic Prawns</li>
+                    <li>Angara Tangdi Kebab</li>
+                </ol>
+                <ol class="menu1pic" style="list-style-type: none;">
+                    <li><img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/chicken-tikka-kebab.jpg" width="80" height="60px"></li>
+                    <li><img src="https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/04/11874-Fish_Kebabs.jpg?v=1-0" width="80"></li>
+                    <li><img src="https://img.taste.com.au/_1ypTGAI/taste/2016/11/chilli-garlic-prawns-85649-1.jpeg" width="80"></li>
+                    <li><img src="https://cdn.tasteatlas.com/images/dishes/0dbe9295a494436e8bdc0b94d9697de1.jpg?m=facebook" width="80" height="60px"></li>
+                </ol>
+                <ol class="menu1" style="list-style-type: none;">
+                    <li>499</li>
+                    <li>499</li>
+                    <li>499</li>
+                    <li>499</li>
+                </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+      </article>
+      
+      
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
